@@ -1,0 +1,11 @@
+.App {
+  display:block;
+  text-align: center;
+}
+*{
+  background-color: beige;
+}
+
+#buy{
+  margin:10px;
+}
