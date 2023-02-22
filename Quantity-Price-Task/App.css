@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.one,.two{
+  flex:0 1 100%;
+}
+*{
+  background-color: beige;
+}
+.name{
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#image{
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+}
+#buy{
+  margin:10px;
+}
+#des{
+  align-items: center;
+  justify-content: center;
+}
+
+#des p{
+  font-size: 20px;
+}
+.quantity{
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+
+.quantity span{
+  font-size: 125%;
+}
+.quantity button{
+  margin:20px;
+  border-radius: 8px;
+  padding:10px;
+  background-color: black;
+  color: white;
+}
+.price{
+  display:inline;
+  justify-content: center;
+}
+#priv{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 1px;
+}
